@@ -3,15 +3,22 @@
 <!-- This is the head of our html where we add external resources and metadata -->
 <head>
 
-    <title> Peekaboo!</title>
+    <title> thesleepco</title>
 
-    <!-- This is our grid stylesheet -->
-
-
-    <!-- This is our google fonts    -->
+    <!-- This is our grid stylesheet ----------------------------------->
 
 
-    <!-- this is our CSS stylesheet, this always goes last  -->
+    <!-- This is our google fonts    ------------------------------------>
+
+    <!------ This is our fontawsome icons ------------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!----------- Gridlex for our flexbos grids  ------------------------->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+
+
+    <!-------- this is our custom CSS stylesheet, this always goes last  ------------->
     <link rel="stylesheet" href="/style.css">
 
 
@@ -21,7 +28,102 @@
 <!-- This is the body this is where all of your page content goes -->
 <body>
 
-    <h1> hello World</h1>
+    <!------ Header banner ----- -->
+    <header class="padded grid">
+        <div class="col-12-middle"> 
+            <h3> sleep like a baby</h3>
+            <h1> the ultimate mattress solution</h1>
+        </div>    
+    </header>
+
+ <!--------------------------- Gallery Section ---------------------------------->
+    <section class="grid"> 
+        <div class="padded col-6">
+            <h2> build to last a lifetime</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam aliquam quasi optio delectus ab beatae error quaerat fugiat omnis sapiente obcaecati mollitia blanditiis rerum quos, quam consequuntur dolore labore cupiditate.
+            </p>
+
+        </div>
+        <div class="bg-image col-6">
+            <!--  background image bed -->
+        </div>
+        <div class="bg-image col-6">
+            <!-- background image pug --- -->
+        </div>
+        <div class="padded col-6">
+            <h2> so soft you'll melt</h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ex labore obcaecati corporis temporibus ut dignissimos impedit earum nesciunt nobis, sequi commodi animi est non eum dolorem veritatis deserunt quisquam.
+            </p>
+
+        </div>
+    </section>
+<!------------------------ feature section -------------------------------------- -->
+    <section class="padded grid bg-dark">
+        <!------ why add div with h2 inside why not just a h2? ----->
+        <div class="col-12">
+            <h2 class="padded-sm"> features you will love</h2>
+        </div>
+
+        <div class="padded-sm col-3">
+            <i class="fas fa-cloud"></i>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolores doloremque enim, cumque tempora nesciunt laboriosam velit expedita provident assumenda. Culpa facilis officiis odit modi eius omnis fugit laudantium nulla!
+            </p>
+
+        </div>
+        <div class="padded-sm col-3">
+            <i class="fas fa-cloud"></i>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae maxime sunt eligendi excepturi iusto fugit recusandae vero perspiciatis, cumque asperiores reiciendis ipsa suscipit porro explicabo ad labore quia inventore sequi.
+            </p>
+
+        </div>
+        <div class="padded-sm col-3"> 
+            <i class="fas fa-cloud"></i>
+            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis dolore blanditiis molestias, voluptas tenetur dignissimos rerum fuga iste aperiam quisquam enim incidunt dicta, nisi consequuntur, perferendis quas totam id deleniti.
+            </p>
+        </div>
+        <div class="padded-sm col-3">
+            <i class="fas fa-cloud"></i>
+            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque fugit aperiam ipsum cum doloribus at adipisci consectetur, quaerat sed, molestiae laborum alias libero reprehenderit quae, laboriosam deleniti eos dicta recusandae.
+            </p>
+        </div>
+    </section>
+
+    <!------------------ Image Banner  ------------------------------------------>
+    <section class="padded">
+        <h3> never underestimate to power of a good night sleep</h3>
+    </section>
+
+    <!------------------- Testimonial section ------------------------------------------>
+<section class="padded grid">
+    <div class="col-1">
+        <span>"</span>
+    </div>
+    <div class="col-10">
+        <P> I've never experienced sleep like this. Omg I really love this mattress I want to buy one for every member of my</P>
+        
+        <p> - A very happy customer </p>
+    </div>
+    <div class="col-1">
+        <span>"</span>
+    </div>
+
+</section>
+<!---------------------------- The Footer  --------------------------------------------->
+<!-- when creating grid used col-4 & col-6 to have 2 cols with space between  -->
+<footer class="padded grid-spaceBetween bg-dark">
+    <div class="col-4">
+        <h2> Let's connect </h3>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore explicabo animi a iure sint deleniti nemo facilis, sit nobis pariatur dolorem quo minus officiis alias ab atque quibusdam eaque.</p>
+    </div>
+    <div class="col-6">
+        <p> Call: 04555 5555 </p>
+        <p> Email: hello@thesleep.co </p>
+        <p> Store: 55 Main St, Chicago </p>
+        <p> Instagram: @thesleepco </p>
+    </div>
+
+</footer>
+    
 
 
 
