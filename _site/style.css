@@ -93,7 +93,7 @@
 
 /* Image Styles */
 .bg-image {
-    background-image: url('/images/the-sleep-co-original1.jpg');
+    background-image: url('/images/the-sleep-co-white-bed.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -174,7 +174,7 @@ a:hover {
 /*  Header & Footer styles --------------------  */
 
 header {
-    background-image: url('/images/the-sleep-co-original1.jpg');
+    background-image: url('/images/the-sleep-co-white-bed.jpg');
     background-size: cover;
     background-position: center;
     padding: 2% 5%;
@@ -202,13 +202,13 @@ footer a {
 
 /*  Background Images --------------------  */
 
-.bg-bed { background-image: url('/images/the-sleep-co-original3.jpg') }
+.bg-bed { background-image: url('/images/the-sleep-co-white-bed.jpg') }
 .bg-pug { 
-    background-image: url('/images/the-sleep-co-original4.jpg');
+    background-image: url('/images/the-sleep-co-pug.jpg');
     background-position: 50% 35%;
 }
 .bg-pillow {
-    background-image: url('/images/the-sleep-co-original2.jpg');
+    background-image: url('/images/the-sleep-co-yellow.jpg');
     background-position: 50% 57%;
 }
 
