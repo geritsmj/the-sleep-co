@@ -20,6 +20,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;500;800&display=swap" rel="stylesheet" />
 
+
+<!----------- Animate of scoll  ----------------------------->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- This is our custom stylesheet -->
     <link href="/style.css" rel="stylesheet" />
 
@@ -28,7 +32,7 @@
 <!-- This is the body, this is where all of your page content goes.  -->
 <body>
 
-        <!--------------- Header Banner ------------------->
+    <!--------------- Header Banner ------------------->
     <header class="grid tall-100 md-tall-80"> 
 
         <div class="header-nav col-12-top grid">
@@ -54,7 +58,7 @@
 
 </div>
 
-<nav class="mobile-menu">
+<nav class="mobile-menu bg-featured padded">
     <a href="/index.html"> Home </a> 
     <a href="/about.html"> About </a>
     <a href="/products.html"> Products </a>
@@ -62,10 +66,10 @@
 </nav>
          
         <div class="col-12 text-center"> 
-            <h3 class="font-weight-extra-bold editable">
+            <h3 class="font-weight-extra-bold editable" data-aos="fade-in" data-aos-duration="2000">
                 <span class="featured-text"> sleep</span> like a baby
             </h3>
-            <h1 class="font-weight-light editable">
+            <h1 class="font-weight-light editable" data-aos="fade-up" data-aos-delay="300">
                 the ultimate mattress solution
             </h1> 
         </div> 
@@ -73,7 +77,7 @@
 
     <!----------------- Gallery / about Section  ----------------->
     <section class="grid"> 
-        <div class="padded col-6_xs-12-middle">
+        <div class="padded col-6_xs-12-middle" data-aos="fade-right">
             <h2 class="editable">
                 build to last a <span class="featured-text">lifetime</span>
             </h2> 
@@ -90,7 +94,7 @@
         <div class="bg-image bg-pug col-6_xs-12 tall-70"> 
             <!-- background image pug sleeping  -->
         </div> 
-        <div class="padded col-6_xs-12-middle editable">
+        <div class="padded col-6_xs-12-middle editable"data-aos="fade-left" >
             <h2> so <span class="featured-text">soft</span> you'll melt </h2> 
             <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur cumque modi non quod deleniti a aspernatur minima veritatis ipsa obcaecati reprehenderit, tempore ad voluptatum temporibus iure dolorem provident necessitatibus ratione! </p>     
         </div> 
@@ -99,15 +103,10 @@
     <!-----------------  Feature icon grid  ----------------->
 
     <section class="padded grid-center bg-dark"> 
-        <div class="padded-sm col-12 text-center">
+        <div class="padded-sm col-12 text-center" data-aos="fade-in">
             <h2> <span class="featured-text">features</span> you will love </h2>     
         </div> 
 
-        
-        <div class="padded-sm col-3_sm-6 xxs-stack">
-            <i class="fab fa-pagelines"></i>
-            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto incidunt vero et praesentium. Possimus quae praesentium eaque eius et id odit saepe repellat delectus, suscipit nobis facilis voluptatibus odio distinction. </p>  
-        </div> 
         
         <div class="padded-sm col-3_sm-6 xxs-stack">
             <i class="fas fa-apple-alt"></i>
@@ -115,12 +114,17 @@
         </div> 
         
         <div class="padded-sm col-3_sm-6 xxs-stack">
-            <i class="fas fa-lemon"></i>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, deserunt quaerat nostrum harum corrupti iusto expedita magnam molestias sunt, doloremque explicabo praesentium ullam porro eos, neque enim doloribus iure similique. </p>  
+            <i class="fab fa-pagelines"></i>
+            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto incidunt vero et praesentium. Possimus quae praesentium eaque eius et id odit saepe repellat delectus, suscipit nobis facilis voluptatibus odio distinction. </p>  
         </div> 
         
         <div class="padded-sm col-3_sm-6 xxs-stack">
             <i class="fas fa-pepper-hot"></i>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, deserunt quaerat nostrum harum corrupti iusto expedita magnam molestias sunt, doloremque explicabo praesentium ullam porro eos, neque enim doloribus iure similique. </p>  
+        </div> 
+        
+        <div class="padded-sm col-3_sm-6 xxs-stack">
+            <i class="fas fa-lemon"></i>
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, deserunt quaerat nostrum harum corrupti iusto expedita magnam molestias sunt, doloremque explicabo praesentium ullam porro eos, neque enim doloribus iure similique. </p>  
         </div> 
         
@@ -149,9 +153,7 @@
         <div class="col-1">
             <span class="quote-icon">”</span>
         </div> 
-    </section> 
-
-  
+    </section>
 
 
   <!---------------- Footer --------------->
@@ -172,6 +174,9 @@
 
 <!-- Add jquery ------------------------------------>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- Animate of scoll  ---------------->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <!--------------  our Custom javascript file  -------------------------->
 
