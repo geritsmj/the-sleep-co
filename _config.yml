@@ -1,0 +1,14 @@
+
+_select_data:
+  aspect-ratios:
+    - square
+    - portrait
+    - portrait-tall
+    - landscape
+    - landscape-wide
+
+  coloum-sizes:
+    col-6: One Half
+    col-12: Full width
+    col-4: One third
+    col-3: One quarter
